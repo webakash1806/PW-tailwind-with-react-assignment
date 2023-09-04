@@ -6,7 +6,7 @@ const Newsletter = () => {
                     Subscribe To Our NewsLetter
                 </p>
                 <input className="p-2 rounded-[4px] outline-none border-none w-[100%] " type="text" placeholder="Enter Your Email ID..." />
-                <button className="bg-[#4ADE80] rounded-md p-1.5 px-7 sm:px-11 font-bold tracking-wide">Subscribe Now</button>
+                <button className="bg-[#4ADE80] rounded-md p-1.5 px-7 sm:px-11 font-bold tracking-wide hover:bg-[#e22df6] hover:text-white transition-all duration-500">Subscribe Now</button>
             </div>
         </>
     )
