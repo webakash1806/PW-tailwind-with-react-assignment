@@ -9,7 +9,7 @@ import Newsletter from "./Components/Newsletter"
 const App = () => {
   return (
     <>
-      <div className="main">
+      <div className="main flex flex-col w-screen items-center justify-center">
         <Head />
         <Image />
         <Description />
